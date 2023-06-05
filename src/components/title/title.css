@@ -1,5 +1,4 @@
 .title_container{
-    background-color: rgba(255 165, 0, 0.1);
     background-position: center;
     background-size: cover;
     background-repeat: repeat-x;
@@ -26,7 +25,7 @@
     font-family: serif;
     color: orange;
     text-shadow: 1px 1px white;
-    margin-top: -25px;
+    margin-top: -15px;
 }
 .cafe_contact{
     font-size: 20px;

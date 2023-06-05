@@ -26,9 +26,6 @@ function Carousel() {
         <>
             <div className="navigation-wrapper">
                 <div ref={sliderRef} className="keen-slider slider">
-                    <div className="keen-slider__slide number-slide7 img_size">
-                        <p className="introduce">The best service, satisfied customers, <br />delicious coffee from the most exotic <br />countries and a wide range of <br />drinks and desserts.</p>
-                    </div>
                     <div className="keen-slider__slide number-slide1 img_size">
                         <img src={slide0} alt="slide0" />
                     </div>
@@ -46,6 +43,13 @@ function Carousel() {
                     </div>
                     <div className="keen-slider__slide number-slide3 img_size">
                         <img src={slide5} alt="slide5" />
+                    </div>
+                    <div className="keen-slider__slide number-slide7 img_size">
+                        <p className="introduce">The best service, satisfied customers,
+                            <br />delicious coffee from the most exotic
+                            <br />countries and a wide range of drinks<br /> and desserts. That's all about us!<br />
+                            Come to Eclectique Marseille and see<br /> for yourself.
+                            Nous vous attendons!</p>
                     </div>
                 </div>
                 {loaded && instanceRef.current && (
