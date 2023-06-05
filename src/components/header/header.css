@@ -29,7 +29,7 @@ p{
     font-family: Sans-serif;
     color: orange;
     font-weight: 800;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px black;
 }   
 .App-logo {
     height: 40px;
@@ -71,5 +71,5 @@ span {
 span p{
     color: orange;
     font-size: 20px;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px black;
 }

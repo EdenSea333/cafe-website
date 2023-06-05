@@ -17,14 +17,14 @@
     font-family: serif;
     font-weight: bold;
     color: orange;
-    text-shadow: 3px 3px white;
+    text-shadow: 1px 1px black;
     margin-top: 90px;
 }
 .cafe_title{
     font-size: 28px;
     font-family: serif;
     color: orange;
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px black;
     margin-top: -15px;
 }
 .cafe_contact{
@@ -34,6 +34,7 @@
     color: white;
     margin-top: -20px;
     border: 1px solid orange; 
+    text-shadow: 1px 1px black;
 }
 a{
     text-decoration: none;
