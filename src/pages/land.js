@@ -4,7 +4,7 @@ import "../App.css"
 
 function Land() {
     return (
-        <div class="land">
+        <div className="land">
             <Header />
             <Title />
         </div>
