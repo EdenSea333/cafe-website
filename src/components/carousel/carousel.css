@@ -1,0 +1,49 @@
+
+.slider{
+    width: 80%;
+    height: 40%;
+}
+.img_size{
+    margin-top: 5px;
+    width: 80%;
+    height: 60%;
+}
+.arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    fill: orange;
+    cursor: pointer;
+}
+.arrow--right {
+    left: auto;
+    right: 22%;
+    top: 70%;
+}
+.arrow--left {
+    right: auto;
+    left: 22%;
+    top: 70%;
+}
+.dot {
+    border: none;
+    width: 10px;
+    height: 10px;
+    background: #c5c5c5;
+    border-radius: 50%;
+    margin: 2px;
+    margin-bottom: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.dot.active {
+    background-color: orange;
+}
+.introduce{
+    font-family: cursive;
+    font-size: 32px;
+    margin-top: 8%;
+}
